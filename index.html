@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JBW</title>
+
+    <link rel="stylesheet" href="fonts/main.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sources/intTelInput/intlTelInput.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <script src="sources/intTelInput/intlTelInput-jquery.min.js"></script>
+</head>
+<body>
+    <header class="page-header">
+        <div class="wrapper">
+            <span class="title">Lorem ipsum dolor sit amet donec voluptatem ipsum dolor sit amet donec voluptatem</span>
+
+            <img src="images/close_head_icon.svg" alt="close" class="hide-content">
+        </div>
+    </header>
+
+    <div class="page-content">
+        <div class="wrapper">
+            <section class="custom-service">
+                <div class="description">
+                    <h1 class="title">Professional Сustom <br/> Service Just <span class="text-accent">for You</span></h1>
+
+                    <p class="caption">
+                        We can do <span class="text-accent">anything</span>
+                    </p>
+                </div>
+
+                <div class="calculate-price">
+                    <form action="#" class="calculate-price__form">
+                        <p class="title">Calculate the Price</p>
+
+                        <div class="row">
+                            <p class="caption">Choose level</p>
+
+                            <div class="select-wrap">
+                                <select class="difficulty" name="difficulty" title="difficulty">
+                                    <option value="Hard">Hardcore</option>
+                                    <option value="Medium">Medium</option>
+                                    <option value="Easy">Easy</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <p class="caption">How many</p>
+
+                            <div class="rates">
+                                <div class="quantity">
+                                    <button class="change-amount minus">-</button>
+
+                                    <input type="text" value="1" class="counter">
+
+                                    <button class="change-amount plus">+</button>
+                                </div>
+
+                                <div class="price">
+                                    <div class="value">
+                                        $<span class="numb">10</span>.99
+                                    </div>
+
+                                    <div class="popup">
+                                        Pop Up
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div id="modal-window" class="modal-window modal">
+        <div class="specify-info">
+            <header class="specify-info__header">
+                <h2 class="title">Ask us how we can help you</h2>
+
+                <p class="caption">Lorem ipsum dolor sit amet</p>
+            </header>
+
+            <form action="#" class="specify-info__form">
+                <div class="row form-item">
+                    <p class="caption">Enter your  name</p>
+
+                    <input type="text" class="name">
+
+                    <span class="error-message">
+                        Please insert valid name(more than three symbols)
+                    </span>
+                </div>
+
+                <div class="row form-item">
+                    <p class="caption">Enter your  email</p>
+
+                    <input type="email" class="email">
+
+                    <span class="error-message">
+                        Please insert valid email
+                    </span>
+                </div>
+
+                <div class="row form-item">
+                    <p class="caption">Your phone</p>
+
+                    <input type="tel" class="phone" maxlength="11">
+
+                    <span class="error-message">
+                        Please insert valid phone(more than ten numbers)
+                    </span>
+                </div>
+
+                <button type="submit" class="continue btn-success">Continue <img src="images/angle_right.svg" alt="angle-right"></button>
+            </form>
+        </div>
+
+        <div class="check-email">
+            <img class="envelope" src="images/envelope.svg" alt="envelope">
+
+            <span class="title">Thank you!</span>
+
+            <span class="subtitle">Please check your email</span>
+
+            <button class="confirm btn-success">Ok, tnx</button>
+        </div>
+    </div>
+
+    <script src="priceForm.js"></script>
+    <script src="modalForm.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

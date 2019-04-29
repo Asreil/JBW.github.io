@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('MyriadPro/MyriadPro-Regular.eot');
+    src: url('MyriadPro/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+    url('MyriadPro/MyriadPro-Regular.woff') format('woff'),
+    url('MyriadPro/MyriadPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('RobotoMono/RobotoMono-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Mono';
+    src: url('RobotoMono/RobotoMono-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('Lato/Lato-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto/Roboto-Medium.ttf');
+    font-weight: 500;
+    font-style: normal;
+}
